@@ -1,2 +1,5 @@
 my_set_var = {1, "hi" , 2}
-print("Set:", ','.join(str(item) for item in my_set_var)) # Output: Set: 1, hi , 2
+print("Set:", ','.join(str(item) for item in my_set_var)) #Output: Set: 1, hi , 2 /  3 x 2 = 6 ways
+
+my_set_var = ( 1, "hi" , 2) 
+print("Set:", ','.join(str(item) for item in my_set_var))  #Output: Set: 1, hi , 2 -> 1 way
