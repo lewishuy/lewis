@@ -1,0 +1,11 @@
+name = 'Lewis'
+uppercase_name = name.upper() #Upper-case all letters
+lowercase_name = name.lower() #Lower-case all letters
+print(uppercase_name) 
+print(lowercase_name)
+  
+#How to have upper-case/lower-case specific letters?
+name = 'Lewis'
+uppercase_name = name[0].upper() #At here I want to captital letter L , also with lower case
+print(uppercase_name)
+
