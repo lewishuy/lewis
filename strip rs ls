@@ -1,0 +1,7 @@
+user_name = '  Lewis Huy  '
+user_name_adaption = user_name.strip()  #Delete the leading and trailing whitespace
+user_name_adaption1= user_name.rstrip() #Delete the trailing whitespace
+user_name_adaption2= user_name.lstrip() #Delete the leading whitespace
+print(f"'{user_name_adaption}'") #See the difference. 
+print(f"'{user_name_adaption1}'")
+print(f"'{user_name_adaption2}'")
