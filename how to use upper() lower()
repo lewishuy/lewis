@@ -1,5 +1,5 @@
 name = 'Lewis'
-uppercase_name = name.upper() $${\color{red}#Upper-case all letters}$$
+uppercase_name = name.upper() #Upper-case all letters}
 lowercase_name = name.lower() #Lower-case all letters
 print(uppercase_name) 
 print(lowercase_name)
